@@ -22,6 +22,15 @@ You can build the docker container by running:
 docker build .
 ```
 
+# Usage
+
+## Environment config
+
+* `NSM_NAME`               - Namespace of Network service 
+* `NSM_LISTEN_ON`          - Namespace of Network Service Client
+* `NSM_CONNECT_TO`         - url to connect to NSM
+* `NSM_MAX_TOKEN_LIFETIME` - maximum lifetime of tokens
+
 # Testing
 
 ## Testing Docker container
